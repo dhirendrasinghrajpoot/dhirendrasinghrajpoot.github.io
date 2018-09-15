@@ -1,0 +1,26 @@
+
+
+body {
+	background-image: url(bc.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	
+
+}
+
+
+
+li{
+	display:  fade inline-block;
+
+}
+.nav-link:active{
+	background-color:red;
+}
+.nav-link:hover{
+	color: yellow;
+}
+.dropdown-item{
+	background-color: powder blue;
+	color: yellow;
+}

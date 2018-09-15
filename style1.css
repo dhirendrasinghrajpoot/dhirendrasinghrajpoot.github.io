@@ -1,0 +1,43 @@
+nav{
+    background-color: #fff;
+    
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+}
+body {
+background-image: url(bc1.jpg);
+	background-size: cover;
+	text-align: column;
+}
+
+
+}
+ <ul>
+  <li class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+    <a class="nav-link " id="home-tab" data-toggle="tab" href="about.html" role="tab" aria-controls="home" aria-selected="true">
+    <img src="logo.jpg" width="50" height="50" alt=""class="d-inline-block align-top" alt="">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " title="login" id="profile-tab" data-toggle="tab" href="login.html" role="tab" aria-controls="profile" aria-selected="false">login</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" title="contact" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+</div>
+    <form class="form-inline">
+  
+  <div class="form-group mx-sm-3 mb-2">
+    <label for="item" class="sr-only">Enter the item to Search</label>
+    <input type="text" class="form-control"  >
+  </div>
+  <button type="submit" class="btn btn-primary mb-2">Search</button>
+</form>
+    
+  	
